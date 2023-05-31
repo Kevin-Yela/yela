@@ -13,3 +13,8 @@ resultado_resta = resta(numero1, numero2)
 
 print("La suma de", numero1, "y", numero2, "es:", resultado_suma)
 print("La resta de", numero1, "y", numero2, "es:", resultado_resta)
+
+ #Yela
+    #Idolo
+    #IEM_ESCUELA_NORMAL_PASTO
+    #11-1
