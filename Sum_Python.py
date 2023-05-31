@@ -1,19 +1,15 @@
-import requests
+def suma(a, b):
+    return a + b
 
-def obtener_goles_cristiano():
-    url = "https://api.football-data.org/v2/players/CR7"
-    headers = {"X-Auth-Token": "TU_API_KEY"}
-    
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        data = response.json()
-        total_goles = data["goals"]["total"]
-        return total_goles
-    else:
-        return None
+def resta(a, b):
+    return a - b
 
-goles_cristiano = obtener_goles_cristiano()
-if goles_cristiano is not None:
-    print("Cristiano Ronaldo ha marcado", goles_cristiano, "goles.")
-else:
-    print("No se pudo obtener la información de los goles de Cristiano Ronaldo.")
+# Ejemplo de uso
+numero1 = 10
+numero2 = 5
+
+resultado_suma = suma(numero1, numero2)
+resultado_resta = resta(numero1, numero2)
+
+print("La suma de", numero1, "y", numero2, "es:", resultado_suma)
+print("La resta de", numero1, "y", numero2, "es:", resultado_resta)
