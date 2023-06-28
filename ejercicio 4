@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NUEVAS NOTICIAS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #333;
+      color: white;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    main {
+      margin: 20px;
+    }
+    
+    article {
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      margin: 0 0 10px;
+    }
+    
+    .date {
+      font-size: 14px;
+      color: #777;
+    }
+    
+    .author {
+      font-size: 12px;
+      color: #555;
+    }
+    
+    .content {
+      margin-top: 10px;
+    }
+    
+    .content p:first-child {
+      margin-top: 0;
+    }
+    
+    .content p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Página de Noticias</h1>
+  </header>
+  
+  <main>
+    <article>
+      <h2>calentamiento global</h2>
+      <p class="date">Fecha: 1 de enero de 2023</p>
+      <p class="author">Autor: Juan Pérez</p>
+      <div class="content">
+        <p>El calentamiento global resulta del aumento del efecto invernadero, un proceso en el que la radiación térmica emitida por la Tierra queda atrapada en la atmósfera debido a los gases con ese efecto (GEI). Su presencia es natural y necesaria para mantener la temperatura del planeta en unos valores habitables.</p>
+  
+      </div>
+    </article>
+    
+    <article>
+      <h2>lucha contra el cancer</h2>
+      <p class="date">Fecha: 15 de febrero de 2023</p>
+      <p class="author">Autor: Ana Gómez</p>
+      <div class="content">
+        <p>Avance en la lucha contra el cáncer: Terapia génica logra remisiones en pacientes": Un estudio clínico ha revelado resultados prometedores en el uso de la terapia génica para el tratamiento del cáncer. La investigación se centró en pacientes con leucemia linfoblástica aguda y utilizó una técnica novedosa que modificó genéticamente las células T del sistema inmunológico para atacar específicamente a las células cancerosas. En varios casos, se lograron remisiones completas, lo que abre nuevas perspectivas en la lucha contra el cáncer..</p>
+      
+      </div>
+    </article>
+    
+    <article>
+      <h2>cambio climatico</h2>
+      <p class="date">Fecha: 10 de marzo de 2023</p>
+      <p class="author">Autor: María López</p>
+      <div class="content">
+        <p>"Cumbre mundial sobre cambio climático establece nuevas metas": En la reciente cumbre mundial sobre cambio climático, los líderes de diferentes países acordaron establecer nuevas metas y compromisos para abordar la crisis climática. Entre los acuerdos más destacados se encuentra la reducción de emisiones de carbono en un 50% para 2030, la promoción de energías renovables y la protección de ecosistemas clave. Los expertos calificaron este acuerdo como un paso significativo, aunque se espera un esfuerzo conjunto adicional para limitar el calentamiento global a 1.5 grados Celsius.</p>
+        <p>Maec
